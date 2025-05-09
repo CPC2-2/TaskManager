@@ -16,12 +16,10 @@
             <!--show active projects!-->
             <div class="flex justify-between items-cente p-5 text-white">
                 <div class="flex gap-9">
-                <!--SHOW OPEN PROYECTS!-->
                     <div class="flex">
                         <p class="mr-2">{{count($proyectos)}}</p>
                         <p>Open</p>
                     </div>
-                <!--SHOW CLOSED PROYECTS!-->
                     <div class="flex">
                         <p class="mr-2">0</p>
                         <p>Close</p>
